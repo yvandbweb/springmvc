@@ -1,0 +1,74 @@
+.odd{
+	background-color:#bcc6d9;
+}
+
+.even{
+	background-color:white;
+}
+
+.tdblue td{
+	/*border-right:1px solid blue;*/
+}
+
+
+table.listing .name{
+	width:20%;
+}
+
+table.listing .datetime{
+	width:24%;
+}
+
+table.listing .viewpost{
+	width:20%;
+}
+
+table.listing .txt{
+	width:36%;
+}
+
+.page-link{
+	cursor:pointer;
+}
+
+.post1{
+  border-radius: 25px;
+  background: #e0dfdc;
+  padding: 20px; 
+  width: 90%;
+  min-height: 130px; 
+  margin-left:1%;
+  margin-bottom:10px;
+  border:2px solid #3970d5;
+	
+}
+
+.bubcomment{
+	margin-left:10%;
+	width:80%;
+	
+}
+
+.greycom{
+	background: #f3f3f3;
+	
+}
+div.clear{
+	clear:both;
+}
+
+.Commenttitle{
+	margin-left:2%;
+	color:#3970d5;
+	
+}
+
+.posttext textarea{
+	width:100%;
+}
+
+.title1{
+	margin-top:10px;
+	margin-bottom:20px;
+	color:#3970d5;
+}
