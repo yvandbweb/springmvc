@@ -5,7 +5,7 @@
 			
 			<div class="row">
 				  <div class="title1">
-				  Average Posts per month
+				  Average Posts per Month
 				  </div>
 				  <div class="col-sm">
 						<canvas id="myAreaChart" style="display: block; width: 659px; height: 320px;" width="659" height="320" class="chartjs-render-monitor"></canvas>
@@ -14,23 +14,23 @@
 	       
 	        <div class="row">
 		        
-		        <div class="col-sm">
-			        <div style="height:350px;width:350px">	
+		        <div class="col-sm-6">  
+			        <div style="">	
 			        
 						  <div class="title1">
-						  Top posters 
+						  Top Posters 
 						  </div>
 				            
-		                   <canvas id="myPieChart" width="200" height="200" class="" style="width: 205px; height: 205px;"></canvas> 
+		                   <canvas id="myPieChart" class="" style="width: 205px; height: 205px;"></canvas> 
 		            </div>
 	            </div>
 		        
-		        <div class="col-sm">
-			         <div style="height:350px;width:350px;"> 		  
+		        <div class="col-sm-6">  
+			         <div style=""> 		  
 						  <div class="title1">
-						  Top commenters	
+						  Top Commenters	
 						  </div>		               		       		                 
-		                   <canvas id="myPieChart2" width="200" height="200" class="" style="width: 205px; height: 205px;"></canvas> 
+		                   <canvas id="myPieChart2" class="" style="width: 205px; height: 205px;"></canvas> 
 		            </div>
 	            </div>
 	       </div>	       
