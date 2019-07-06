@@ -29,7 +29,7 @@
 					        	</a></td>
 					        </tr>
 				        </c:forEach>
-	                    <c:if test="${empty userlist}">
+	                    <c:if test="${empty postlist}">
 	                	   <tr><td colspan="4">No ${pageurl} found</td></tr>
 	                    </c:if>					        		       
 	                  </tbody>
