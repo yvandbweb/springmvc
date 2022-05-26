@@ -25,16 +25,16 @@
 
 <body id="page-top">
     <div class="page-container ">
-        <div class="content-wrap">
-        <div class="row row1">
-        <div class="jsp">A Java hibernate Demo APP</div>
+        <div class="content-wrap">         
+        <div class="centered container">
+        <div class="topul">
 		    <ul>
 		        <li><a href="<c:url value = "/"/>"><u>Stats</u></a></li>
 		        <li><a href="<c:url value = "posts"/>"><u>Posts</u></a></li>
 		        <li><a href="<c:url value = "users"/>"><u>Users</u></a></li>
-		    </ul>
-		</div>           
-        <div class="centered container">
+		    </ul>        
+        </div>
+        <div class="clear"></div>
         <div class="topsrchcolor">
 	        <form class="form-inline" method="get" action="<c:url value = "${pageurl}"/>">
 	        <div class="form-group">
