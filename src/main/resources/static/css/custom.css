@@ -52,29 +52,31 @@ footer {
 
 
 .row1{
-    background-color:#838383;
     margin:0;padding:0;
     text-align:center;
-    height:100px;
 }
 
-.row1 ul li{
-    color:white;
-    display: inline-block;
-    margin-right:30px;
+.topul{
+    float:right;
+    font-size:16px;    
+}
+
+.topul ul{
+    margin-left:0;
+    padding-left:0;
     
 }
 
-.row1 ul li a{
-    color:white;
-    text-decoration:none;
-    font-size:28px;
+.topul ul li{
+    display: inline-block;
+    
+}
+
+.topul ul li a{
 }
 
 .row1 .jsp{
-    color:white;
-    text-decoration:none;
-    font-size:28px;
+
 }
 
 .container-fluid{
@@ -82,7 +84,7 @@ footer {
 }
 
 .topsrchcolor{
-    background-color: #e8e6ff;
+    background-color: #bcc6d9;
     padding-bottom:15px;
     padding-top:15px;
     padding-left:15px;
@@ -135,6 +137,9 @@ ul{
 }
 
 @media only screen and (max-width: 768px) {
+.topul{
+    float:left;   
+}	
 
  
  .centered {
