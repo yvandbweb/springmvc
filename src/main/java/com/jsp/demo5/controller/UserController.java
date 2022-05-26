@@ -40,6 +40,9 @@ public class UserController {
     	model.addObject("search" , search);
     	model.addObject("pageurl" , "users");
     	
+    	model.addObject("iduserposts" , iduserposts);
+    	model.addObject("idusercomments" , idusercomments);
+    	
     	if (iduserposts!=0) {
     		List<Post> listposts = userservice.getpostsByUsers(iduserposts); 
     		model.addObject("listposts" , listposts);
@@ -47,7 +50,7 @@ public class UserController {
             List<Comment> listcomments = userservice.getcommentsByUsers(idusercomments); 
             model.addObject("listcomments" , listcomments);
     	}else
-    		model.addObject("listposts" , userservice.getpostsByUsers(31));        
+    		model.addObject("listposts" , userservice.getpostsByUsers(-1));        
     	 
         
         ArrayList  list = userservice.getAllUsers(vararr.get("offset"),vararr.get("steps"),search); 

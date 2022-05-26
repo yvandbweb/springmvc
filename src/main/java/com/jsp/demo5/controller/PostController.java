@@ -26,7 +26,7 @@ public class PostController {
 
     @RequestMapping(value={"/posts"})
     ModelAndView postlist(@RequestParam(value="i2", required=false, defaultValue = "1") Integer i1,
-    		           @RequestParam(value="idpost", required=false, defaultValue = "54")Integer idpost1,
+    		           @RequestParam(value="idpost", required=false, defaultValue = "-1")Integer idpost1,
     		           @RequestParam(value="search", required=false, defaultValue = "")String search)  {
         
         ModelAndView model = new ModelAndView("posts");    
@@ -40,10 +40,11 @@ public class PostController {
     	model.addObject("total" , vararr.get("total"));
     	model.addObject("search" , search);
     	model.addObject("pageurl" , "posts");
+    	model.addObject("postid" , idpost1);
   
         List<Comment> listcom = commentservice.getAllCommments(idpost1);     
         model.addObject("listcom" , listcom);    	
-        ArrayList  list = postservice.getAllPost(vararr.get("offset"),vararr.get("steps"),search); 
+        ArrayList  list = postservice.getAllPost(vararr.get("offset"),vararr.get("steps"),search);        
     	
     	model.addObject("postlist",list);
     	
